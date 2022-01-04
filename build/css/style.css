@@ -11134,4 +11134,14 @@ textarea.form-control-lg {
   width: 10rem;
 }
 
+.horarios {
+  color: #877457;
+}
+
+.letra {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="build/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <title>CafeTime</title>
 </head>
@@ -62,7 +65,101 @@
             </div>
 
         </div>
+
+        <div class="d-flex justify-content-center my-5">
+          <a href="#" class="btn btn-secondary text-white">Más información</a>
+        </div>
     </section>
+
+    <main class="container locales my-5">
+      <div class="d-flex justify-content-between">
+        <h2>Nuestros locales</h2>
+        <a href="#" class="text-decoration-none d-none d-sm-block">Explora más locales</a>
+      </div>
+
+      <!-- row de las cards -->
+      <div class="row">
+      <!-- cards -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local4.jpeg" alt="imagen local 1">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios">lu a vi. desde 10:00 hasta 22:00 hrs</p>
+            <h3 class="card-title fs-5">Lorem ipsum dolor sit amet</h3>
+            <p class="card-text description">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ut aut maiores assumenda beatae tempore."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local2.jpeg" alt="imagen local 1">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios">lu a vi. desde 10:00 hasta 22:00 hrs</p>
+            <h3 class="card-title fs-5">Lorem ipsum dolor sit amet</h3>
+            <p class="card-text description">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ut aut maiores assumenda beatae tempore."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/photo1jpg.jpeg" alt="imagen local 1">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios">lu a vi. desde 10:00 hasta 22:00 hrs</p>
+            <h3 class="card-title fs-5">Lorem ipsum dolor sit amet</h3>
+            <p class="card-text description">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ut aut maiores assumenda beatae tempore."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local_reemplazo.jpg" alt="imagen local 1">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios">lu a vi. desde 10:00 hasta 22:00 hrs</p>
+            <h3 class="card-title fs-5">Lorem ipsum dolor sit amet</h3>
+            <p class="card-text description">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ut aut maiores assumenda beatae tempore."
+            </p>
+          </div>
+        </div>
+      </div>
+<!-- cards -->
+
+      </div>
+
+<!-- row de las cards -->
+
+<!-- aplicaciones moviles -->
+<section class="app-movil container mt-5">
+  <div class="row">
+    <div class="offset-md-4 col-md-4">
+      <span class="d-block mx-auto text-primary letra">CafeTime</span>
+      <p class="text-center fw-bold mt-5 fs-4">Mantente conectado. Descarga nuestra APP</p>
+      <div class="d-flex gap-4">
+        <div class="col">
+          <a href="#">
+          <img class="img-fluid" src="img/svg/tienda-android.svg" alt="iamgen apple store">
+        </a>
+      </div>
+
+      <div class="col">
+        <a href="#">
+          <img class="img-fluid" src="img/svg/tienda-apple.svg" alt="iamgen apple store">
+  </a>
+    </div>
+
+
+  </div>
+</div>
+</div>
+
+</section>
+<!-- aplicaciones moviles -->
+</main>
 
 </body>
 <footer>
@@ -73,34 +170,58 @@
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
+        <a
+        class="btn btn-primary btn-lg btn-floating"
+        style="background-color: #3B5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook"></i
+      ></a>
   
         <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
+        <a
+  class="btn btn-primary btn-lg btn-floating"
+  style="background-color: #55ACEE;"
+  href="#!"
+  role="button"
+  ><i class="fab fa-twitter"></i
+></a>
   
         <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
+        <a
+  class="btn btn-primary btn-lg btn-floating"
+  style="background-color: #DD4B39;"
+  href="#!"
+  role="button"
+  ><i class="fab fa-google"></i
+></a>
   
         <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
+        <a
+  class="btn btn-primary btn-lg btn-floating"
+  style="background-color: #ac2bac;"
+  href="#!"
+  role="button"
+  ><i class="fab fa-instagram"></i
+></a>
   
         <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
+        <a
+  class="btn btn-primary btn-lg btn-floating"
+  style="background-color: #0082CA;"
+  href="#!"
+  role="button"
+  ><i class="fab fa-linkedin"></i
+></a>
   
         <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
+        <a
+  class="btn btn-primary btn-lg btn-floating"
+  style="background-color: #333333;"
+  href="#!"
+  role="button"
+  ><i class="fab fa-github"></i
+></a>
       </section>
       <!-- Section: Social media -->
   
@@ -112,7 +233,7 @@
             <!--Grid column-->
             <div class="col-auto">
               <p class="pt-2">
-                <strong>Sign up for our newsletter</strong>
+                <strong>Recibe nuestro newsletter</strong>
               </p>
             </div>
             <!--Grid column-->
@@ -122,7 +243,7 @@
               <!-- Email input -->
               <div class="form-outline form-white mb-4">
                 <input type="email" id="form5Example21" class="form-control" />
-                <label class="form-label" for="form5Example21">Email address</label>
+                <label class="form-label" for="form5Example21">Dirección de email</label>
               </div>
             </div>
             <!--Grid column-->
@@ -131,7 +252,7 @@
             <div class="col-auto">
               <!-- Submit button -->
               <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
+                Suscríbete
               </button>
             </div>
             <!--Grid column-->
@@ -143,11 +264,11 @@
   
       <!-- Section: Text -->
       <section class="mb-4">
-        <p>
+        <!-- <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
           repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
           eum harum corrupti dicta, aliquam sequi voluptate quas.
-        </p>
+        </p> -->
       </section>
       <!-- Section: Text -->
   
@@ -157,20 +278,17 @@
         <div class="row">
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
+            <h5 class="text-uppercase">Contacto</h5>
   
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Link 1</a>
+                <a href="#!" class="text-white">Email</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+                <a href="#!" class="text-white">Teléfono</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
+                <a href="#!" class="text-white">Redes</a>
               </li>
             </ul>
           </div>
@@ -178,20 +296,17 @@
   
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
+            <h5 class="text-uppercase">Acerca de</h5>
   
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Link 1</a>
+                <a href="#!" class="text-white">Nosotros</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+                <a href="#!" class="text-white">Nuestra empresa</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
+                <a href="#!" class="text-white">Trabaja con nosotros</a>
               </li>
             </ul>
           </div>
@@ -199,20 +314,17 @@
   
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
+            <h5 class="text-uppercase">Servicio al cliente</h5>
   
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Link 1</a>
+                <a href="#!" class="text-white">Preguntas frecuentes</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+                <a href="#!" class="text-white">Contácto</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
+                <a href="#!" class="text-white">Revisa tu boleta</a>
               </li>
             </ul>
           </div>
@@ -220,21 +332,19 @@
   
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
+            <h5 class="text-uppercase">Vínculos rápidos</h5>
   
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Link 1</a>
+                <a href="#!" class="text-white">Información nutricional</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+                <a href="#!" class="text-white">Buscador de tiendas</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
+                <a href="#!" class="text-white">Promociones</a>
               </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
+
             </ul>
           </div>
           <!--Grid column-->
@@ -247,8 +357,8 @@
   
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      © 2022 Copyright: Andrea Díaz
+      <a class="text-white" href="https://mdbootstrap.com/">CafeTime</a>
     </div>
     <!-- Copyright -->
   </footer>
