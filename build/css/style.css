@@ -11144,4 +11144,12 @@ textarea.form-control-lg {
   font-size: 2rem;
 }
 
+.btn-footer:hover {
+  color: white;
+}
+
+.link:hover {
+  color: grey;
+}
+
 /*# sourceMappingURL=style.css.map */
